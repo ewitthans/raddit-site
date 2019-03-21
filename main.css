@@ -1,0 +1,14 @@
+h1 {
+    font-size: 5em;
+}
+.blog-post {
+    width:500px !important;
+}
+.blog-visited {
+    width:400px;
+}
+.fas {
+    color: red;
+    font-size: 30px;
+    margin-left: 10px;
+}
