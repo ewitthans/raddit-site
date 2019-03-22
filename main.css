@@ -1,14 +1,50 @@
 h1 {
     font-size: 5em;
 }
-.blog-post {
-    width:500px !important;
+body {
+    background:#dfe6e9;
+}
+.blog-post p {
+    background: #b2bec3;
+    padding: 30px;
+    margin: 20px;
+}
+.blog-post h3 {
+    margin-left: 20px 30px;
+    background: #636e72;
+    width: 550px;
 }
 .blog-visited {
-    width:400px;
+    margin-left: 20px 30px;
+    background: #636f90;
+    width: 500px;
 }
 .fas {
     color: red;
     font-size: 30px;
     margin-left: 10px;
+}
+.link-class a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-right: 2px solid black;
+    margin-bottom: 10px;
+}
+.link-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog-post-wrapper {
+    margin: 0px 10px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-post-author {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
