@@ -8,11 +8,18 @@ body {
     background: #b2bec3;
     padding: 30px;
     margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.blog-post:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .blog-post h3 {
     margin-left: 20px 30px;
     background: #636e72;
-    width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .blog-visited {
     margin-left: 20px 30px;
@@ -47,4 +54,30 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.table-class {
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid red;
+}
+table {
+    width: 100%;
+}
+th {
+    font-weight: bold;
+
+}
+tr {
+    border: 20px solid black;
+    padding: 10px;
+    color: blue;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+}
+tr:nth-child(even) {
+    background-color: grey;
 }
